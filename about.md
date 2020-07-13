@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-permalink: innovatorsincogneuro.github.io/about
+permalink: innovatorsincogneuro.github.io/about.html
 ---
 
 ### this is an example title
