@@ -1655,7 +1655,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #f98780;
+			background-color: #133233;
 		}
 
 		input[type="button"].large,
@@ -1672,7 +1672,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #A1ADAD url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1681,7 +1681,7 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #f98780;
+				background-color: #133233;
 			}
 
 			input[type="button"].style1:active,
@@ -1689,7 +1689,7 @@ input, select, textarea {
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #d96760;
+				background-color: #133233;
 			}
 
 		input[type="button"].style2,
@@ -1723,7 +1723,7 @@ input, select, textarea {
 		input[type="reset"].style3,
 		button.style3,
 		.button.style3 {
-			background: #2f333b url("images/overlay.png");
+			background: #A1ADAD url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1850,7 +1850,7 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #e97770 !important;
+			color: (255, 255, 255, 0.05) !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2002,13 +2002,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #133233 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
+				background: #133233 url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -2060,8 +2060,8 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		position: relative;
-		height: 24em;
-		background: url("../../images/banner.jpg") center center;
+		height: 25em;
+		background: url("../../images/innov-cog-neur-bannerArtboard\ 1@3x.png") center center;
 		background-size: cover;
 		padding: 0;
 	}
@@ -2141,7 +2141,7 @@ input, select, textarea {
 					color: rgba(255, 255, 255, 0.75);
 					text-transform: uppercase;
 					text-decoration: none;
-					font-size: 0.7em;
+					font-size: 1em;
 					letter-spacing: 0.25em;
 					height: 5em;
 					line-height: 5em;
@@ -2217,8 +2217,8 @@ input, select, textarea {
 	}
 
 		#intro p.style1 {
-			font-size: 1em;
-			line-height: 1em;
+			font-size: 1.5em;
+			line-height: 1.3em;
 			letter-spacing: 0.1em;
 		}
 
@@ -2264,7 +2264,7 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770;
+			color: #133233;
 			margin: 0 0 0.75em 0;
 			font-size: 2em;
 			letter-spacing: 0.075em;
@@ -2286,7 +2286,7 @@ input, select, textarea {
 		}
 
 		#footer hr {
-			border-top-color: #333;
+			border-top-color: rgb(89, 89, 89);
 			border-top-color: rgba(255, 255, 255, 0.05);
 		}
 
@@ -2369,7 +2369,7 @@ input, select, textarea {
 			}
 
 			#footer .feature-list h3:before {
-				background: #3d4249 url("images/overlay.png");
+				background: #A1ADAD url("images/overlay.png");
 			}
 
 /* Copyright */
