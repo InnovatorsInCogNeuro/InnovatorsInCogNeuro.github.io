@@ -175,6 +175,28 @@ input, select, textarea {
 	}
 
 /* Container */
+	.container-fullscreen {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		position: relative;
+		height: 35em; 
+		background: url("../../images/about-banner_wideArtboard\ 1@3x.png") center center;
+		background-size: cover;
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+		border: 0 0 0 0;
+		width: 100%;
+	} 
 
 	.container {
 		margin: 0 auto;
@@ -1620,13 +1642,18 @@ input, select, textarea {
 			width: 100%;
 			margin: 0 0 2em 0;
 		}
+
 		.image.featured-round {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
 			border-radius: 50%;
 		}
-
+		
+		.image.fullwidth {
+			display: block;
+			max-width: 100%;;
+		}	
 /* Button */
 
 	input[type="button"],
