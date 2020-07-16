@@ -2153,12 +2153,12 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#nav > ul {
+		/*#nav > ul {
 			display: inline-block;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+			box-shadow: inset 0px 0px 1px 1px #133233;
 			padding: 0 1.5em 0 1.5em;
-		}
+		}*/
 
 			#nav > ul > li {
 				display: inline-block;
@@ -2186,10 +2186,12 @@ input, select, textarea {
 					-ms-transition: all .25s ease-in-out;
 					transition: all .25s ease-in-out;
 					outline: 0;
+					font-weight:bold;
 				}
 
 				#nav > ul > li:hover > a {
 					color: #fff;
+					font-weight: bold;
 				}
 
 				#nav > ul > li.active > a, #nav > ul > li.active > span {
