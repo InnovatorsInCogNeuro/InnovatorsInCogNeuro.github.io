@@ -1649,11 +1649,12 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 			border-radius: 50%;
 		}
-		
-		.image.fullwidth {
+		.image.crest {
 			display: block;
-			max-width: 100%;;
-		}	
+			width: 100%;
+			margin: 0 0 2em 0;
+			border: solid 5px  #282b34;
+		}
 /* Button */
 
 	input[type="button"],
@@ -2067,9 +2068,9 @@ input, select, textarea {
 				color: #484d55;
 			}
 
-			.wrapper.style3 .image {
+			/*.wrapper.style3 .image {
 				border: solid 10px #fff;
-			}
+			} /*
 
 /* Page Wrapper */
 
@@ -2302,6 +2303,7 @@ input, select, textarea {
 			margin: 0 0 0.75em 0;
 			font-size: 2em;
 			letter-spacing: 0.075em;
+			line-height:1.25em
 		}
 
 /* Main */
